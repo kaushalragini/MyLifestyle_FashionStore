@@ -171,17 +171,19 @@ hr {
 .squareAdds {
   margin: auto;
   padding: 3%;
-  width: 80%;
+  /* width: 80%; */
   height: auto;
 }
 
-.squareAddsImages {
+.topPicksImages {
   display: flex;
   gap: 1%;
 }
 
-.squareAddsImages img {
+.topPicksImages img {
   cursor: pointer;
+  width: 33%;
+  height: auto;
 }
 
 .smallSquareAdds {
@@ -197,13 +199,13 @@ hr {
   letter-spacing: 3px;
 }
 
-.smallSquareAddsImages {
+.trendingImages {
   display: grid;
   grid-template-columns: 16% 16% 16% 16% 16% 16%;
   gap: 1%;
 }
 
-.smallSquareAddsImages img {
+.trendingImages img {
   width: 100%;
   height: auto;
 }
@@ -232,21 +234,21 @@ hr {
   letter-spacing: 3px;
 }
 
-.circleAddsImages {
+.dealImages {
   display: grid;
   gap: 1.5%;
   grid-template-columns: 15.33% 15.33% 15.33% 15.33% 15.33% 15.33%;
   grid-template-rows: auto auto;
 }
 
-.circleAddsImages img {
+.dealImages img {
   width: 100%;
   height: auto;
 
   cursor: pointer;
 }
 
-.circleAddsImages h4 {
+.dealImages h4 {
   text-align: center;
   font-size: 100%;
   margin-left: 0%;
@@ -338,4 +340,43 @@ footer h5 {
 .copyright a {
   text-decoration: none;
   color: black;
+}
+
+.elevenDeal {
+  margin: auto;
+  width: 80%;
+  padding: 3.6%;
+}
+
+.trendingEthnic {
+  margin: auto;
+  padding: 3%;
+  width: 80%;
+  height: auto;
+}
+
+.topPicks {
+  margin: auto;
+  padding: 3%;
+  width: 80%;
+  height: auto;
+}
+
+.winterImages {
+  display: grid;
+  gap: 1%;
+  grid-template-columns: 15.33% 15.33% 15.33% 15.33% 15.33% 15.33%;
+  /* grid-template-rows: auto auto; */
+}
+
+.winterImages img {
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+}
+
+.winterWears {
+  margin: auto;
+  padding: 3.6%;
+  width: 80%;
 }
