@@ -1,0 +1,30 @@
+#productDiv {
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.prctBtn {
+  width: 95%;
+  height: 50px;
+  background-color: orange;
+  border: 0px solid;
+  color: white;
+}
+.sizeProduct {
+  margin: auto;
+  border: 1px solid black;
+  width: 70%;
+}
+
+.maiInner {
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  width: 95%;
+}
+select {
+  border: 0px solid;
+  /* background-color: aqua; */
+}
