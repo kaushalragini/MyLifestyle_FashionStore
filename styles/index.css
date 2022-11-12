@@ -171,32 +171,19 @@ hr {
 .squareAdds {
   margin: auto;
   padding: 3%;
-<<<<<<< HEAD
-  width: 80%;
-  height: auto;
-}
-
-.squareAddsImages {
-=======
   /* width: 80%; */
   height: auto;
 }
 
 .topPicksImages {
->>>>>>> day-3
   display: flex;
   gap: 1%;
 }
 
-<<<<<<< HEAD
-.squareAddsImages img {
-  cursor: pointer;
-=======
 .topPicksImages img {
   cursor: pointer;
   width: 33%;
   height: auto;
->>>>>>> day-3
 }
 
 .smallSquareAdds {
@@ -212,21 +199,13 @@ hr {
   letter-spacing: 3px;
 }
 
-<<<<<<< HEAD
-.smallSquareAddsImages {
-=======
 .trendingImages {
->>>>>>> day-3
   display: grid;
   grid-template-columns: 16% 16% 16% 16% 16% 16%;
   gap: 1%;
 }
 
-<<<<<<< HEAD
-.smallSquareAddsImages img {
-=======
 .trendingImages img {
->>>>>>> day-3
   width: 100%;
   height: auto;
 }
@@ -255,33 +234,21 @@ hr {
   letter-spacing: 3px;
 }
 
-<<<<<<< HEAD
-.circleAddsImages {
-=======
 .dealImages {
->>>>>>> day-3
   display: grid;
   gap: 1.5%;
   grid-template-columns: 15.33% 15.33% 15.33% 15.33% 15.33% 15.33%;
   grid-template-rows: auto auto;
 }
 
-<<<<<<< HEAD
-.circleAddsImages img {
-=======
 .dealImages img {
->>>>>>> day-3
   width: 100%;
   height: auto;
 
   cursor: pointer;
 }
 
-<<<<<<< HEAD
-.circleAddsImages h4 {
-=======
 .dealImages h4 {
->>>>>>> day-3
   text-align: center;
   font-size: 100%;
   margin-left: 0%;
@@ -412,4 +379,78 @@ footer h5 {
   margin: auto;
   padding: 3.6%;
   width: 80%;
+}
+
+.bottomWear {
+  margin: auto;
+  padding: 3%;
+  width: 80%;
+  height: auto;
+}
+
+.bottomWearImages {
+  display: grid;
+  grid-template-columns: 16% 16% 16% 16% 16% 16%;
+  gap: 1%;
+}
+
+.bottomWearImages img {
+  width: 100%;
+  height: auto;
+}
+
+.todayFlashSale {
+  margin: auto;
+  padding: 3%;
+  width: 80%;
+  height: auto;
+}
+
+.categoryShopping {
+  margin: auto;
+  width: 80%;
+  padding: 3%;
+  height: auto;
+}
+
+.catShoppingImages {
+  display: grid;
+  gap: 1.5%;
+  grid-template-columns: 15.33% 15.33% 15.33% 15.33% 15.33% 15.33%;
+  grid-template-rows: auto auto;
+}
+
+.catShoppingImages img {
+  width: 100%;
+  height: auto;
+
+  cursor: pointer;
+}
+
+.catShoppingImages h4 {
+  text-align: center;
+  font-size: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.topTrendingBrand {
+  margin: auto;
+  width: 80%;
+  padding: 3%;
+  height: auto;
+}
+
+.trendingBrandImages {
+  display: grid;
+  gap: 1.5%;
+  grid-template-columns: 15.33% 15.33% 15.33% 15.33% 15.33% 15.33%;
+  grid-template-rows: auto auto;
+}
+
+.trendingBrandImages img {
+  width: 100%;
+  height: auto;
+
+  cursor: pointer;
 }
