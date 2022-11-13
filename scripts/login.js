@@ -33,7 +33,7 @@ submitForm.addEventListener("submit", (e) => {
     console.log(uName, pWrd);
     if (uName === "test@test.com" && pWrd === "test") {
       // localStorage.setItem("loggedIn", true)
-      window.location.assign("index.html");
+      window.location.assign("../index.html");
       console.log("logged in successfull");
     } else {
       alert("incorrect credentials");
