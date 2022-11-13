@@ -1,0 +1,52 @@
+#outerPart {
+  margin: auto;
+  border: 1px;
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  /* border: 1px solid black; */
+}
+#forimg {
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(3, 1fr); */
+}
+#forimg img {
+  width: 60%;
+}
+#smallimg img {
+  border: 1px solid orangered;
+  width: 5%;
+}
+#boxes {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  /* border: 1px solid; */
+}
+#boxes div {
+  border: 1px solid;
+  margin: auto;
+}
+#btnspcl {
+  margin: auto;
+  background-color: orange;
+  align-items: center;
+  border: 0px;
+  color: white;
+  height: 40px;
+  margin-left: 100px;
+  width: 300px;
+  margin-top: 20px;
+}
+#pincodeinpt {
+  width: 260px;
+  height: 40px;
+  margin-left: 50px;
+}
+#checkbtn {
+  background-color: orange;
+  color: white;
+  border: 0px solid;
+  height: 45px;
+  width: 60px;
+}

@@ -1,0 +1,16 @@
+#cartData {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+}
+
+#totalmaindiv {
+  /* margin: auto; */
+  display: flex;
+  justify-content: space-between;
+}
+#cartData {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}

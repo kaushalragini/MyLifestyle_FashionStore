@@ -2,7 +2,9 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   background-color: #ffffff;
 }
-
+#mainnavtop {
+  width: 100%;
+}
 .logo {
   width: 5.5vw;
   height: 50px;
@@ -115,7 +117,9 @@ nav h4,
   font-weight: 600;
   letter-spacing: 0.1em;
 }
-
+.div2 {
+  height: 70px;
+}
 #categories {
   margin: auto;
   width: 80vw;
@@ -137,13 +141,14 @@ nav h4,
   margin: auto;
 }
 
-#carousel {
+#bannerCarousel {
+  border-bottom: 1px dashed orange;
   margin: auto;
-  width: 80%;
+  width: 85%;
   padding: 2.5%;
 }
 
-#carousel img {
+#bannerCarousel img {
   width: 100%;
   height: auto;
 }
@@ -344,21 +349,21 @@ footer h5 {
 
 .elevenDeal {
   margin: auto;
-  width: 80%;
-  padding: 3.6%;
+  width: 85%;
+  padding: 1.6%;
 }
 
 .trendingEthnic {
   margin: auto;
-  padding: 3%;
-  width: 80%;
+  padding: 2%;
+  width: 85%;
   height: auto;
 }
 
 .topPicks {
   margin: auto;
   padding: 3%;
-  width: 80%;
+  width: 85%;
   height: auto;
 }
 
@@ -378,13 +383,13 @@ footer h5 {
 .winterWears {
   margin: auto;
   padding: 3.6%;
-  width: 80%;
+  width: 85%;
 }
 
 .bottomWear {
   margin: auto;
   padding: 3%;
-  width: 80%;
+  width: 85%;
   height: auto;
 }
 
@@ -402,13 +407,13 @@ footer h5 {
 .todayFlashSale {
   margin: auto;
   padding: 3%;
-  width: 80%;
+  width: 85%;
   height: auto;
 }
 
 .categoryShopping {
   margin: auto;
-  width: 80%;
+  width: 85%;
   padding: 3%;
   height: auto;
 }
@@ -436,7 +441,7 @@ footer h5 {
 
 .topTrendingBrand {
   margin: auto;
-  width: 80%;
+  width: 85%;
   padding: 3%;
   height: auto;
 }
@@ -453,4 +458,248 @@ footer h5 {
   height: auto;
 
   cursor: pointer;
+}
+
+.offDeal {
+  margin: auto;
+  padding: 3%;
+  width: 85%;
+  height: auto;
+}
+
+.offDealImage img {
+  width: 100%;
+  height: auto;
+
+  cursor: pointer;
+}
+
+.surpriseDiscount {
+  margin: auto;
+  padding: 3%;
+  width: 80%;
+  height: auto;
+}
+
+.surpriseDiscount img {
+  width: 100%;
+  height: auto;
+
+  cursor: pointer;
+}
+
+.brandDay {
+  margin: auto;
+  padding: 3%;
+  width: 85%;
+  height: auto;
+}
+
+.brandDay img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.flashSale {
+  margin: auto;
+  padding: 3%;
+  width: 85%;
+  height: auto;
+}
+
+.flashSale img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.activeWears {
+  margin: auto;
+  padding: 3%;
+  width: 85%;
+  height: auto;
+}
+
+.activeWearsImages {
+  display: flex;
+  gap: 1%;
+}
+
+.activeWears img {
+  width: 33%;
+  height: auto;
+}
+.activeWearsImages img {
+  cursor: pointer;
+}
+
+.topTrendingBrand2 {
+  margin: auto;
+  padding: 3.6%;
+  width: 85%;
+}
+
+.topTrendingImages img {
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+}
+
+.topTrendingImages {
+  display: grid;
+  gap: 1%;
+  grid-template-columns: 15.33% 15.33% 15.33% 15.33% 15.33% 15.33%;
+}
+
+.wardrobeEssentials {
+  margin: auto;
+  padding: 3%;
+  width: 85%;
+  height: auto;
+}
+
+.wardrobeEssentialsImages {
+  display: flex;
+  gap: 1%;
+}
+
+.wardrobeEssentials img {
+  width: 33%;
+  height: auto;
+}
+
+.curated {
+  margin: auto;
+  padding: 3%;
+  width: 85%;
+  height: auto;
+}
+
+.curatedImages {
+  display: flex;
+  gap: 1%;
+}
+
+.curated img {
+  width: 33%;
+  height: auto;
+}
+
+.trendSetter {
+  margin: auto;
+  padding: 3%;
+  width: 85%;
+  height: auto;
+}
+
+.trendSetterImages {
+  display: flex;
+  gap: 1%;
+}
+
+.trendSetter img {
+  width: 33%;
+  height: auto;
+}
+
+.mostLoved {
+  margin: auto;
+  padding: 3%;
+  width: 85%;
+  height: auto;
+}
+
+.mostLovedImages {
+  display: flex;
+  gap: 1%;
+}
+
+.mostLoved img {
+  width: 33%;
+  height: auto;
+}
+
+.editorCurated {
+  margin: auto;
+  padding: 3%;
+  width: 85%;
+  height: auto;
+}
+
+.editorCuratedImages {
+  display: flex;
+  gap: 1%;
+}
+
+.editorCurated img {
+  width: 33%;
+  height: auto;
+}
+
+.onlineExclusive {
+  margin: auto;
+  padding: 3%;
+  width: 85%;
+  height: auto;
+}
+.onlineExclusiveImages {
+  display: flex;
+  gap: 1%;
+}
+
+.onlineExclusive img {
+  width: 33%;
+  height: auto;
+}
+
+.bestSellers {
+  margin: auto;
+  padding: 3%;
+  width: 85%;
+  height: auto;
+}
+
+.bestSellersImages {
+  display: flex;
+  gap: 1%;
+}
+
+.bestSellers img {
+  height: auto;
+  width: 50%;
+}
+
+.shopByDept {
+  margin: auto;
+  padding: 3%;
+  width: 85%;
+  height: auto;
+}
+
+.shopByDeptImages {
+  display: flex;
+  gap: 1%;
+}
+
+.shopByDeptImages img {
+  cursor: pointer;
+  width: 33%;
+}
+span:hover {
+  color: orange;
+}
+span {
+  font-size: 14px;
+}
+#socialMedia {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.four {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
 }

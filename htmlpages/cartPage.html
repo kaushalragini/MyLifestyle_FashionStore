@@ -4,70 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Product Page</title>
-    <link rel="stylesheet" href="../styles/index.css" />
-    <link rel="stylesheet" href="../styles/Product.css" />
+    <title>Document</title>
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/Product.css" />
+    <link rel="stylesheet" href="../styles/cartdata.css" />
   </head>
   <body>
     <img id="mainnavtop" src="../imgs/topnav.png" alt="" />
-    <!-- div1-->
-    <!-- <div class="navBarTop">
-      <div>
-        <a href="">
-          <span class="textMiddle">
-            <img
-              class="icon"
-              src="https://cdn-icons-png.flaticon.com/128/617/617423.png"
-              alt=""
-            />
-            <h5>Free Shipping</h5>
-          </span>
-        </a>
-        <a href="">
-          <span class="textMiddle">
-            <img
-              class="icon"
-              src="https://cdn-icons-png.flaticon.com/128/1611/1611323.png"
-              alt=""
-            />
-            <h5>Click & Collect</h5>
-          </span>
-        </a>
-        <a href="">
-          <span class="textMiddle">
-            <img
-              class="icon"
-              src="https://cdn-icons-png.flaticon.com/128/726/726570.png"
-              alt=""
-            />
-            <h5>Return To Store</h5>
-          </span>
-        </a>
-      </div>
-      <div class="textMiddle">
-        <a href="">
-          <span class="textMiddle">
-            <h6>Download Our Apps</h6>
-          </span>
-        </a>
-         <div class="vertical-line"></div> -->
-    <!-- <a href="">
-          <span class="textMiddle">
-            <h6>Store Locator</h6>
-          </span>
-        </a>
-         <div class="vertical-line"></div> -->
-    <!-- <a href="">
-          <span class="textMiddle">
-            <h6>Help</h6>
-          </span>
-        </a>
-      </div>
-    </div> -->
+
     <!-- div2-->
     <div class="div2">
       <div style="background-color: #f7f8f7">
@@ -142,11 +90,14 @@
     <div style="background-color: orange">
       <div id="add">Nightwear from Rs. 299 ></div>
     </div>
-    <!-- div-3 -->
-    <div><h1>TopWear</h1></div>
-    <!-- div-4 -->
-    <div id="productDiv">Products</div>
-    <!-- div-5 -->
+    <div id="totalmaindiv">
+      <div id="cartData"></div>
+      <div id="totalcharges">
+        <p id="totalMrp">Total MRP: 0</p>
+        <p id="totalShipping">Total Shipping Cost: 0</p>
+        <p id="totalDiscount">Total Discount: 0</p>
+      </div>
+    </div>
     <div class="subscribeNewsLetter">
       <div class="subscribe">
         <h1>Subscribe to our awesome emails.</h1>
@@ -170,7 +121,7 @@
       </div>
     </div>
     <hr />
-    <!-- div-6 -->
+
     <footer>
       <div>
         <h2>Women</h2>
@@ -252,7 +203,37 @@
       </div>
     </footer>
     <hr />
-    <!-- div-7 -->
+    <div id="socialMedia">
+      <div class="one">
+        <i class="bx bxs-phone-call"></i>
+        <p>Talk to us</p>
+        <h3>1800-123-15555</h3>
+      </div>
+      <div class="one">
+        <i class="bx bxs-help-circle"></i>
+        <p>HelpCenter</p>
+        <a href="https://www.lifestylestores.com/in/en/write-to-us"
+          ><h3>help.lifestylestores.com</h3></a
+        >
+      </div>
+      <div class="one">
+        <i class="bx bx-envelope"></i>
+        <p>Write to Us</p>
+        <h3>help@lifestore.com</h3>
+      </div>
+      <div class="four">
+        <a href="https://www.facebook.com/lifestylestores"
+          ><i class="bx bxl-facebook-square"></i
+        ></a>
+        <a href="https://twitter.com/Lifestyle_Store"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+        <a href="https://www.instagram.com/lifestylestores/">
+          <i class="bx bxl-instagram"></i
+        ></a>
+      </div>
+    </div>
+    <hr />
     <div class="copyright textMiddle">
       <div>
         <a href="index.html" style="width: 10%">
@@ -268,4 +249,4 @@
     </div>
   </body>
 </html>
-<script src="../scripts/Product.js"></script>
+<script src="../scripts/cartPage.js"></script>
